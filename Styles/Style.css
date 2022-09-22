@@ -105,3 +105,58 @@ body {
     background: #575757;
     transition: background-color .5s;
 }
+.car {
+    padding: 100px;
+}
+.sub-title {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305;
+}
+.car-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.car-item {
+    max-width: 384px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.car-item-image img {
+    vertical-align: bottom;
+}
+.car-item-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #030305;
+    padding: 15px 0 17px 0;
+}
+.car-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.car-item-point {
+    width: 110px;
+    height: 92px;
+    margin: 0 7.5px;
+}
+.car-item-point img{
+    margin-bottom: 11px;
+}
+.car-item-action {
+    margin-top: 13px;
+}
+.car-item-action .button {
+    width: 100%;
+    padding: 15px;
+    height: 54px;
+}
+.car-item-point > div:nth-child(2) {
+    font-weight: bold;
+}
