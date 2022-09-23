@@ -112,6 +112,10 @@ body {
 }
 .car-item-image img {
     vertical-align: bottom;
+    transition: all .3s;
+}
+.car-item-image:hover img {
+    transform: scale(1.1);
 }
 .car-item-title {
     font-weight: bold;
@@ -207,8 +211,6 @@ body {
     font-size: 10px !important;
     font-family: Roboto, sans-serif !important;
     border-radius: 0 !important;
-
-
 }
 
 
