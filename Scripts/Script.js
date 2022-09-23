@@ -9,12 +9,28 @@ for (var i = 0; i < buttons.length; i++) {
 }
 document.getElementById("price-action").onclick = function () {
     if (document.getElementById("name").value === "") {
-        alert("Запоните поле имя!");
+        swal({
+            title: "Заполните поле имя!",
+            background: "black",
+            confirmButtonColor: "#169f4a",
+        });
     } else if (document.getElementById("phone").value === "") {
-        alert("Запоните поле телефон!");
+        swal({
+            title: "Запоните поле телефон!",
+            background: "black",
+            confirmButtonColor: "#169f4a",
+        });
     } else if (document.getElementById("car").value === "") {
-        alert("Запоните поле автомобиль!");
+        swal({
+            title: "Запоните поле автомобиль!",
+            background: "black",
+            confirmButtonColor: "#169f4a",
+        });
     } else {
-        alert("Спасибо за заявку, мы свяжемся с вами в ближайшее время!")
+        swal({
+            title: "Спасибо за заявку, мы свяжемся с вами в ближайшее время!",
+            background: "black",
+            confirmButtonColor: "#169f4a",
+        });
     }
 }

@@ -200,3 +200,15 @@ body {
     font-size: 15px;
     color: #030305;
 }
+.swal2-html-container, .swal2-title{
+    color: white !important;
+}
+.swal2-popup {
+    font-size: 10px !important;
+    font-family: Roboto, sans-serif !important;
+    border-radius: 0 !important;
+
+
+}
+
+
